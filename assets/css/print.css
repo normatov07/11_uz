@@ -1,0 +1,14 @@
+.body {width:auto; margin:10px}
+.main2 {padding-top:0}
+.main .lcol{float:none; width: auto;}
+.main .rcol{float:right; width:240px; position:relative}
+.offer .image{float:none; margin:0; padding:0 0 20px 0}
+.offer .image .placeholder{float:none;}
+.offer .properties{float:none; width:auto;}
+.sms_services{font-size:11px}
+.sms_services h5{font-size:11px}
+.offer .image .lnk,
+.offer_actions,
+.offer_contacts .acts,
+.sms_services a,
+.np {display:none}

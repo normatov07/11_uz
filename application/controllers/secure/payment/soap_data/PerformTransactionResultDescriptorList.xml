@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ResponseParamDescriptorList xmlns:ns2="http://uws.provider.com/">
+	<count>2</count>
+	<parameters>
+		<srv_id>1</srv_id>
+		<name>customer_id</name>
+		<type>long</type>
+		<caption_ru>ID Клиента</caption_ru>
+		<caption_uz>Customer ID</caption_uz>
+	</parameters>
+	<parameters>
+		<srv_id>1</srv_id>
+		<name>bonus_cnt</name>
+		<type>int</type>
+		<caption_ru>Количество бонусов</caption_ru>
+		<caption_uz>Count of bonuses</caption_uz>
+	</parameters>
+</ns2:ResponseParamDescriptorList>

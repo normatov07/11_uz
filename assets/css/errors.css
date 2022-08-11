@@ -1,0 +1,22 @@
+.errorpage { background:#fff; border:solid 1px #ccc; font-family:sans-serif; color:#111; font-size:14px; line-height:130%; }
+.errorpage h3 { color:#fff; font-size:16px; padding:8px 6px; margin:0 0 8px; background:#f15a00; text-align:center; }
+.errorpage a { color:#228; text-decoration:none; }
+.errorpage a:hover { text-decoration:underline; }
+.errorpage strong { color:#900; }
+.errorpage p { margin:0; padding:4px 6px 10px; }
+.errorpage tt,
+.errorpage pre,
+.errorpage code { font-family:monospace; padding:2px 4px; font-size:12px; color:#333;
+	white-space:pre-wrap; /* CSS 2.1 */
+	white-space:-moz-pre-wrap; /* For Mozilla */
+	word-wrap:break-word; /* For IE5.5+ */
+}
+.errorpage tt { font-style:italic; }
+.errorpage tt:before { content:">"; color:#aaa; }
+.errorpage code tt:before { content:""; }
+.errorpage pre,
+.errorpage code { background:#eaeee5; border:solid 0 #D6D8D1; border-width:0 1px 1px 0; }
+.errorpage .block { display:block; text-align:left; }
+.errorpage .stats { padding:4px; background: #eee; border-top:solid 1px #ccc; text-align:center; font-size:10px; color:#888; }
+.errorpage .backtrace { margin:0; padding:0 6px; list-style:none; line-height:12px; }
+

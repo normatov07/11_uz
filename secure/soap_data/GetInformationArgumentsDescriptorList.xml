@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:RequestParamDescriptorList xmlns:ns2="http://uws.provider.com/">
+	<count>1</count>
+	<parameters>
+		<srv_id>1</srv_id>
+		<name>customer_id</name>
+		<type>long</type>
+		<length>11</length>
+		<caption_ru>Номер клиента</caption_ru>
+		<caption_uz>Customer ID</caption_uz>
+		<required>true</required>
+		<visible>true</visible>
+		<order>1</order>
+	</parameters>
+</ns2:RequestParamDescriptorList>

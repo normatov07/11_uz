@@ -1,0 +1,305 @@
+/* MENU */
+
+.pagemenu {margin:0 0 15px 0; padding:0}
+.pagemenu .this{font-weight:bold}
+.pagemenu li{display:inline; margin:0 10px 0 0}
+
+.admmenubar{background:#366f7d; height:26px; margin:0 0 20px 0; position:relative}
+
+.admmenubar .content {
+	padding: 0 1rem;
+	float: none;
+	width: 100%;
+}
+
+.admmenubar ul{clear:both; padding:0 1px 1px 1px; color:#f69; margin:0; list-style-type:none}
+	.admmenubar li{float:left; position:relative; margin: 0 2px 0 0;}
+	.admmenubar a{padding:0 4px 0 4px; color: rgba(255,255,255,0.7);font-weight:bold; text-decoration:none;}
+		.admmenubar a:hover{color:#ffc;}
+	.admmenubar .front{font-weight:normal}
+	
+	.admmenubar ul ul{left:0; top:15px; background:#eb0046; margin:5px -4px; padding:0; list-style-type:none; padding:2px 0 5px 0; position:absolute; display:none;}
+	.admmenubar ul ul li{padding:2px 4px; float:left; clear:left}
+		*html .admmenubar ul ul li{padding:2px 8px}
+	.admmenubar ul ul a{color:#fff; font-weight:normal; white-space:nowrap; text-decoration:none}
+	.admmenubar ul ul a:hover{text-decoration:underline}
+
+.bluetable .fr{margin:0; padding:0 5px 10px 5px}
+	.bluetable .fe{margin:0; padding:0 10px 10px 0}
+	.bluetable h3{margin:10px 10px 10px 10px; padding:10px 0 0 0}
+
+	.bluetable hr{height:0px; border:none; border-top:1px solid #ccc; border-bottom:1px solid #fff; margin:0}
+	.bluetable hr{margin:0}
+	
+.blueblock .buttons{margin:0; padding:5px}
+.buttons input[type="submit"]{font-size:12px}
+.blueblock .buttons .subm{font:bold 13px arial; padding:5px}
+
+.dmar .fe{margin-right:10px}
+
+/* WLIST */
+
+.wlist .lcol{ width:600px !important}
+
+*+html .lcol .bcorns{width:588px}
+
+.parent{color:#f30}
+.parent a.t{color:#f30; text-decoration:none}
+
+form h2{margin:15px 0 5px 8px}
+
+.listtable{margin:0; width:100%}
+	.lcol .listtable{width:596px; margin:0 -9px;}
+	
+.listtable .odd{background:#dee9f7}
+
+.listtable td, .listtable th{padding:5px 2px 4px 3px; vertical-align:middle}
+	.lcol .listtable th{padding:5px 3px 4px 3px;}
+	
+.listtable thead td, .listtable thead th{padding-top:0; border-bottom: 1px solid #fcfcfc;}
+.listtable tbody th, .listtable tbody td{border-bottom: 1px solid #ced4dc;}
+.listtable .wlist td, .listtable .wlist th{border-bottom: none; padding-bottom: 0}
+.listtable .ch{border-bottom: none;}
+
+.wlist .listtable .t{padding-left:8px}
+
+.wlist .listtable .t input{width: 150px}
+.wlist .listtable .ty select{width: 80px}
+.wlist .listtable .u input{width:45px}
+.wlist .listtable .l input{width:32px; margin-right:1px}
+
+.wlist .listtable .list th{text-align:right; color:#666}
+.wlist .listtable .list select{width:400px;}
+
+.wlist .listtable .h{background:#fc9}
+
+.lists .listtable .t input, .lists .listtable .v input{width: 220px}
+
+
+.dw{width:550px !important}
+
+/* ORDER */
+
+  .up, .down, td.b .delete, .add{color:#006600; font:bold 11px arial; display:block; margin: 0 8px 0 0; width:13px; position:relative; float:left; cursor:pointer; text-align:center}
+    .up i, .down i, .delete i, .add i, .not i{display:block; margin: 0 5px 0 0; width:13px; height:13px; position:absolute; top:0; left:0}
+    .down i{background: url(/i/adm_arrows.png) no-repeat;}
+    .up i{background: url(/i/adm_arrows.png) -18px top no-repeat;}
+    .delete i{background: url(/i/adm_arrows.png) -36px top no-repeat;}
+	.add, .add i{width:14px; height:14px; margin:2px 0 0 0}
+	.add i{background: url(/i/adm_arrows.png) -53px top no-repeat;}
+
+	.nobut{display:block; width:13px; height:13px; visibility:hidden; cursor: inherit}	
+	
+/*    .but_n, .but_n i{opacity:0; cursor:auto; filter: Alpha(Opacity:0)} */
+
+/* RIGHT COLUMN */
+
+.wlist .rcol{width:185px;}
+	.wlist .rcol h2{margin:0}
+	
+	.tree a.this{color:#f30}
+	
+	.tree, .tree ul{margin:10px 0; padding:0; list-style-type:none; font-size:13px; background:url(/i/tree.png) -28px top repeat-y}
+		.tree ul{margin:5px 0 5px 15px; display:none}
+	
+	.tree li{margin: 7px 0 12px 0; font-size:15px; }
+	
+	.tree a.s{font-size:12px; text-decoration:none; background: url(/i/tree.png) 0 3px no-repeat; padding:0 2px 0 2px; color:#03c;}
+	
+		.tree a.n{color:#390 !important}
+	.tree li a{color:#000}
+
+		.tree ul li{margin:0 0 8px 0; font-size:14px}
+		.tree ul li a{color:#03c}
+	
+		.tree ul ul li{margin:0 0 5px 0; font-size:13px}
+		.tree ul ul li a{color:#69c}
+		
+.digidatetime {width:240px}
+	.digidatetime input{margin-right: 2px !important; width:32px !important;} .digidatetime .m,  .digidatetime .d{width:24px !important}
+	.digidatetime select{width:80px; margin:0 2px 0 -4px;}
+	
+.list{clear:left; font-size:14px; margin:3px 0 10px 0; padding:0; list-style-type:none; white-space:nowrap; max-height: 500px}
+	.list li{margin: 6px 0 6px 0}
+	.list li a{color:#000}
+	.list li.this a{color:#f30;}
+	.list li span{color:#999; font-size:12px}
+
+.rcol .quicksearch .q{width:220px; float:left; margin: 0 5px 10px 0}
+	.rcol .quicksearch .submit{font-size:12px; height:22px}
+	.rcol .quicksearch .busy{padding-right:20px; background: url(/i/busy.gif) no-repeat right top}
+.rcol .line{margin-top: 15px; border-top: 1px dotted #ccc; padding: 10px 0 0 0}
+
+.rcol .viewmodes{margin:10px 0 -5px 0; padding:7px 0 0 5px; border-top:1px dotted #ccc; list-style-type:none; clear:both}
+	.rcol .viewmodes li{margin:0 0 3px 0; color:#999}
+	.rcol .viewmodes a {padding: 1px 2px;}
+	.rcol .viewmodes a.this {background:#093; color:#fff; text-decoration:none}
+
+.rcol a.busy{padding-right:20px; background-image: url(/i/busy.gif); background-repeat: no-repeat; background-position:right top}
+
+.rcol .userlist{padding:0 5px}
+
+.newslist li{margin: 0 0 8px 0; font-size:13px}
+.newslist .d{font-size:11px; color:#666}	
+
+.pagination{clear:left; padding:20px 0 0 0; margin: 0; font: normal 12px arial;}
+	.pagination .arrows{padding: 0 0 4px 0; color:#999}
+		.pagination .arrows a, .pagination .arrows span{margin: 0 10px 0 0}
+	.pagination .digits{height: 20px; padding:3px 0}	
+	.pagination .digits b, .pagination .digits a{float:left; padding: 0px 4px 1px 5px; margin: 0 3px 0 0; border:1px solid #e4ddc2; text-decoration:none; color: #06c; background: white; //height:0px}
+	.pagination .digits i{font-style: normal; float:left; margin: 0 3px 0 0}
+	.pagination .digits a:hover{font-size:18px; line-height:18px; height: 20px; margin: -2px 1px -3px -2px; padding: 1px 5px 1px 4px; border:none; float:left; background: #aac3f2; color:#fff}
+	.pagination .digits .ut a:hover{padding-left: 6px; padding-right: 6px;}
+	.pagination .digits b{color:#fff; background:#3fb361; border-color: #3fb361}
+	
+	.pagination .total{font-size:11px; color:#999}
+
+.rcol .pagination{padding:5px 0 0 0}
+	.rcol .pagination .arrows{font-size:11px}
+
+	
+	.bonus h2{margin:3px 0 10px 5px}
+	.bonus p{margin: 10px 5px}
+	.bonus select{font-size:18px; float:left; margin:0 10px 0 0}
+	.bonus input{font-size:18px}
+	
+/* STATISTICS */
+.statistics h2{margin:0; padding:0}
+.statistics p{font-size:12px; color:#666; margin:2px 0 5px 0}
+.statistics ul{margin:5px 0 20px; padding:0; list-style-type:none}
+.statistics li{margin:0 0 2px 0}
+
+/* PAYMENTS */
+.payments .num{position:relative; width:50px}
+	.payments .popup{position:absolute; top:-7px; left:50px; border-right:2px solid #666; border-bottom:2px solid #666; display:none; float:right; width:600px;}
+	.payments .arrow{position:absolute; width:8px; height:15px; background:url(/i/poparrow.gif) no-repeat; top: 7px; left:-7px}	
+	.payments .popup table{border:1px solid #ccc;}
+	.payments .popup th, .payments .popup td{border:none; font-size:12px; padding:1px 7px; background:#fff;}
+		.payments .popup th{color:#666; white-space:nowrap}
+		.payments .popup td{color:#000; width:100%}
+
+	.payments .complete{background:#fff}
+	
+	.payments .s{padding:0 6px; vertical-align:middle; width:130px}
+	
+	.listfilter{margin:0 0 15px 0; color:#666}
+	.listfilter td{padding:0 10px 0 0; white-space:nowrap; vertical-align:middle;}
+		.listfilter h2{margin: 0}
+		.listfilter input, .listfilter select{float:left; margin:0 2px 0 0; padding:1px; max-width: 270px}
+
+/* EXCHANGE */
+.exchange .rates{border-bottom:1px solid #ccc; margin:0 0 15px 0}
+.exchange .rates td{padding:10px; font-size:12px}
+.exchange .rates h2{margin:0}
+.exchange .rates p{font-size:13px; margin:5px 0}
+.exchange a{text-decoration: none; color:#999}
+.exchange .today{background:#f0fff0; border:1px dotted #ccc}
+.exchange .today h2 a{color:#090;}
+.exchange .yesterday{background:#fcfcfc;}
+.exchange .yesterday h2 a{color:#000}
+
+.exchange form{width:450px; margin:0 auto}
+.exchange form td{font:bold 13px arial; color:#666; padding:0 0 3px 3px}
+.exchange form .date{font: normal 11px arial}
+.exchange form tbody td{padding: 0 15px 10px 3px}
+.exchange .digidate input{font-size:18px}
+.exchange .digidate .y{width:40px !important}
+.exchange .money{width:80px}
+
+/* ROs */
+
+.ros table{border-top:1px solid #ccc; width:100%}
+
+	.ros tr th, .ros tr td{border-bottom:1px solid #ccc; padding:5px 10px 5px; font-size:12px; line-height:14px}
+	.ros .client a{color:#000; font: bold 13px arial}
+	.ros th{width:23%}
+	.ros th p{color:#999; font-size:13px; margin:3px 0}
+	.ros .agent, .ros .agent a{color:#666}
+	
+	.ros .disabled{color:#c00}
+	.ros .enabled{color:#390}
+	.ros .expired{color:#69c}
+	.ros .onhold{color:#f90}
+	
+	.ros th p span{padding:0 4px 2px; color:#fff; white-space:nowrap}
+	.ros .disabled span{background-color:#c00}
+	.ros .enabled span{background-color:#390}
+	.ros .expired span{background-color:#69c}
+	.ros .onhold span{background-color:#f90}
+
+	.ros .cat{color:#666; margin:3px 0 5px 0; padding:0; list-style-type:none}
+	.ros h3{margin:0 0 10px 0}
+	.ros img{border:1px solid #ccc; float:left; margin:0 10px 0 0}
+	.ros td p{font-size:12px; line-height:normal; color:#666; margin:0 0 4px 0; padding:0}
+	.ros td p b{font-size:13px}
+	.ros .cont{float:left; width: 400px}
+	
+	.ros .actions{width: 20%}
+	.ros .actions a{display:block; margin:5px 0; color:#666}
+	.ros .actions .enable{color:#390}
+	.ros .actions .del{color:#900}
+	.ros .actions p{margin:15px 0; font-size:13px}
+	.ros a:hover{color:#f30 !important}
+	
+.ro_stat td, .ro_stat th{border:1px solid #ccc; padding:5px 8px}
+	.ro_stat thead td{font:bold 12px arial; background:#beb;}
+	.ro_stat tbody td, .ro_stat tfoot td{ color:#999; font-size:18px; text-align:center; vertical-align:middle}	
+	.ro_stat .even th, .ro_stat .even td{background:#f3f3f3}
+	.ro_stat tbody th{color:#666}
+	.ro_stat tbody th b{display:block; color:#000}
+	.ro_stat tfoot th, .ro_stat tfoot td{background:#ff6; color:#000; font-size:18px}
+
+
+
+/* moderation */
+
+.filters{margin-top:10px}
+.filters .q{width:200px}
+.filters .but{float:left}
+
+.ofr .d h3{font: normal 18px arial}
+	.ofr .d .c{font: bold 13px arial; color:#090}
+
+.ofr .ty{width:80px; padding-top:5px; font-weight:bold; color:#666}
+.ofr .ty img {
+	margin-top: 5px;
+	width: 120px;
+}
+
+.ofr .d{width: 600px !important; color:#333;}
+
+	
+.ofr .s{width: 200px; vertical-align:top; font-size:12px; color:#666}
+	*html .ofr .s{width:200px}
+	
+	.ofr .s i{display:inline;}
+	.ofr .s .c{font: bold 13px arial; color: #000; margin:2px 0}
+	.ofr .s p{font-size:11px; display:inline}
+	
+	.ofr .u{font-size:11px;}
+	.ofr .mo{font-size:11px; margin:5px 0 0 0}
+		.premium .mo,
+		.postioned .mo,
+		.marked .mo{font:normal 18px arial; color:#f60}
+		
+.ofr .m{vertical-align:top; width:20px}
+	.ofr .m input{margin:5px 0 10px 0}
+
+.offerlist form{margin: 0 0 5px 0; padding: 0;}
+	.offerlist .inp{width:450px; font-size:13px; margin: 0 5px 0 0;}
+	.offerlist textarea{clear:left; width:580px; height:100px; margin: 0 0 5px 0}
+	.offerlist .save, .offerlist .ok{width: auto !important; font:bold 12px/12px arial; padding: 0 3px; margin:0; height:22px; font-size:13px}
+
+.ofr .d div.price{font: bold 14px arial; color:#666; margin:0 0 5px 0}	
+.ofr .d div.price input{padding:2px; margin-right: 2px; width:70px !important}
+	.ofr .d div.price select{margin-right:2px}
+	.ofr .d div.price span{font:normal 12px arial}
+	.ofr .d div.price .ok{width:auto !important; padding: 0 3px}
+
+.ofr .d .description{margin:5px 0; clear:both}
+
+.deleted .d .c, .deleted .d div.price{color:#999}
+
+input.autoformat{width:300px}
+
+.clb{clear:both !important}

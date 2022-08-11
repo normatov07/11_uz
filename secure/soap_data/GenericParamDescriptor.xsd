@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:tns="http://uws.provider.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://uws.provider.com/" version="1.0">
+  <xs:element name="RequestParamDescriptor" type="tns:RequestParamDescriptor"/>
+  <xs:element name="ResponseParamDescriptor" type="tns:ResponseParamDescriptor"/>
+  <xs:element name="RequestParamDescriptorList" type="tns:RequestParamDescriptorList"/>
+  <xs:element name="ResponseParamDescriptorList" type="tns:ResponseParamDescriptorList"/>
+  <xs:complexType name="RequestParamDescriptor">
+    <xs:sequence>
+      <xs:element name="srv_id" type="xs:long" minOccurs="1"/>
+      <xs:element name="name" type="xs:string" minOccurs="1"/>
+      <xs:element name="type" type="xs:string" minOccurs="1"/>
+      <xs:element name="validator" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="length" type="xs:int" minOccurs="1"/>
+      <xs:element name="caption_ru" type="xs:string" minOccurs="1"/>
+      <xs:element name="caption_uz" type="xs:string" minOccurs="1"/>
+      <xs:element name="required" type="xs:boolean" minOccurs="1"/>
+      <xs:element name="visible" type="xs:boolean" minOccurs="1"/>
+      <xs:element name="order" type="xs:int" minOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ResponseParamDescriptor">
+    <xs:sequence>
+      <xs:element name="srv_id" type="xs:long" minOccurs="1"/>
+      <xs:element name="name" type="xs:string" minOccurs="1"/>
+      <xs:element name="type" type="xs:string" minOccurs="1"/>
+      <xs:element name="caption_ru" type="xs:string" minOccurs="1"/>
+      <xs:element name="caption_uz" type="xs:string" minOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RequestParamDescriptorList">
+    <xs:sequence>
+      <xs:element name="count" type="xs:int" minOccurs="1"/>
+      <xs:element name="parameters" type="tns:RequestParamDescriptor" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ResponseParamDescriptorList">
+    <xs:sequence>
+      <xs:element name="count" type="xs:int" minOccurs="1"/>
+      <xs:element name="parameters" type="tns:ResponseParamDescriptor" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

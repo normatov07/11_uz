@@ -1,0 +1,60 @@
+
+
+/* PAGINATION */
+.pagination {
+    clear: left;
+    padding: 20px 0 0 0;
+    margin: 0;
+    font: normal 17px/17px arial;
+}
+
+.pagination .arrows {
+    padding: 0 0 4px 0;
+    color: #999
+}
+
+.pagination .arrows a, .pagination .arrows span {
+    margin: 0 10px 0 0
+}
+
+
+
+.pagination .digits {
+    overflow: hidden;
+    padding: 1rem 0;
+}
+
+.pagination .digits b,
+.pagination .digits a {
+    float: left;
+    text-decoration: none;
+    color: #666;
+
+}
+
+
+
+.pagination .digits i {
+    float: left;
+}
+
+.pagination .digits a:hover {
+    background: #ddd;
+}
+
+
+.pagination .digits b {
+    color: #fff;
+    background: #01bf00;
+    border-color: #01bf00;
+}
+
+.pagination .total {
+
+    color: #999;
+    margin: 5px 0 0 0
+}
+
+* html .pagination .digits a:hover {
+    padding: 2px 5px 0 2px
+}

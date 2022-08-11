@@ -1,0 +1,26 @@
+ErrorDocument 500 /error/503.html
+ErrorDocument 503 /error/503.html
+ErrorDocument 401 /error/503.html
+ErrorDocument 403 /error/403.html
+ErrorDocument 404 /error/404.html
+
+DirectoryIndex index.php
+
+RewriteEngine On
+
+RewriteBase /
+
+
+Options -Indexes
+RewriteRule ^(.*)-\d+\.(css|js)((\.gz)?)$ $1.$2$3
+
+RewriteRule ^(application|modules) - [F,L]
+
+RewriteCond %{REQUEST_FILENAME} !\.(jpg|png|gif)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule .* index.php/$1 [PT,L]
+
+php_value upload_max_filesize 40M
+php_value post_max_size 42M
